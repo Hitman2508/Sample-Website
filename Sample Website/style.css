@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    width: 100%;
+}
+.flex-container{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 100px;
+}
+.menu{
+    min-width: 200 px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top:40px;
+    padding-left: 60px;
+}
+.image-container{
+    display: flex; 
+    position: relative;
+    text-align: center;
+}
+#banner-image{
+    width: 100%;
+    opacity: 0.8;
+}
+.banner-title{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    font-size: 5em;
+}
+.banner-subtitle{
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    font-size: 2em;
+}
+.skill-container{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    height: 400px;
+    margin-top: 50 px;
+    flex-direction: row;
+    margin-left: auto;
+}
+.skill1{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+}
+#image{
+    width: 150px;
+    height:150px;
+    margin-right: 50px;
+}
+#skill-text{
+    color:black;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.skills-known{
+    display: flex;
+    widows: 100%;
+    color: black;
+    opacity: 0.9;
+    font-family: "Trebuchet MS", Helvetica, sans-serif ;
+    text-decoration: underline;
+    font-size: 5em;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 40%;
+    margin-right: 33%;
+}
+.portfolio-heading{
+    display:flex;
+    widows:100%;
+    margin-top: 50px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.portfolio-title{
+    margin-left: 45%;
+    margin-top: 25px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
